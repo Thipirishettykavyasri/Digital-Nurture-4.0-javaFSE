@@ -18,7 +18,7 @@ public class Logger {
     }
 }
 // Main.java
-public class Main {
+public class Singleton Pattern {
     public static void main(String[] args) {
         Logger logger1 = Logger.getInstance();
         logger1.log("First log message.");
